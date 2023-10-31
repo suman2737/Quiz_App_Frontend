@@ -1,15 +1,16 @@
 .container{
-    width: 20rem;
+    width: 21rem;
     height: 33rem;
     background-color: var(--primary-color);
     border-radius: 4px;
     padding: 1rem;
     justify-content: flex-start;
     gap: 1rem;
+    margin: 1rem 0;
 }
 
 .img-box {
-    width: 17rem;
+    width: 18.5rem;
     height: 17rem;
     object-fit: cover;
 }
@@ -21,11 +22,11 @@
 }
 
 .details {
-    color: var(--text-color-primary);
+    color: var(--text-color-secondary);
 }
 
 .title {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .button {
@@ -34,4 +35,5 @@
 
 .play-now-btn {
     background-color: var(--bg-color);
+    color: var(--text-color-primary)
 }

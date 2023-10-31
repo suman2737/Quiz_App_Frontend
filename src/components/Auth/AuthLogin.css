@@ -7,7 +7,7 @@
 .login-auth {
   width: 33rem;
   background-color: var(--primary-color);
-  color: var(--text-color-primary);
+  color: var(--text-color-secondary);
   padding: 1rem 2rem;
   border-radius: 4px;
 }
@@ -23,7 +23,8 @@
   font-size: 1rem;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  color: var(--primary-color);;
+  padding: .5rem;
+  /* font-family: inherit; */
 }
 
 .form-input:focus {
@@ -118,14 +119,24 @@
 }
 
 .btn-outline-primary {
-  color: var(--text-color-primary);
+  color: var(--text-color-secondary);
   background-color: transparent;
   border: 1px solid var(--bg-color);
   cursor: pointer;
 }
 
 .btn-outline-primary:hover {
-  color: var(--background-color);
+  color: var(--text-color-primary);
   background-color: var(--bg-color);
   cursor: pointer;
 }
+
+.btn-margin{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.lh-ls {
+  line-height: inherit;
+  letter-spacing: inherit;
+} 

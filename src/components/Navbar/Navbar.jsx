@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import {Link, useNavigate} from "react-router-dom"
 import { useQuiz } from "../../context";
+import "./Navbar.css"
 // import {useAuth} from "../../context/index"
 
 export const Navbar = ({route}) => {

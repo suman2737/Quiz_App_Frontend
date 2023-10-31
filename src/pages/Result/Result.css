@@ -1,7 +1,7 @@
 .results {
-    margin-top: 3rem;
+    margin-top: 15rem;
     background-color: var(--primary-color);
-    color: var(--text-color-primary);
+    color: var(--text-color-secondary);
     padding: 2rem 5rem;
     width: max-content;
     position: absolute;

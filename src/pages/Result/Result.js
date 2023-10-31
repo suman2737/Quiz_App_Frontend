@@ -14,7 +14,7 @@ export const Result = () => {
             <main className="results">
             <h2>Result</h2>
             <div>
-                <span>Your score is {score}🍕🍕</span>
+                <span>Your score is {score} 🍕🍕</span>
             </div>
 
             </main>

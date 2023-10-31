@@ -58,7 +58,7 @@ export const AuthLogin = () => {
                 <h2 className="auth-title">Login</h2>
                 <form onSubmit = {handleFormSubmit}>
                 <div className="form-container">
-                    <label className="from-lable">Username</label>
+                    <label className="form-lable">Username</label>
                     <input className="form-input lh-ls" placeholder="username" onChange = {handleChangeUserName}/>
                 </div>
                 <div className="from-container">

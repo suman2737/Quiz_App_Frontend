@@ -4,7 +4,7 @@
   
   .question-dialog {
     width: 40vw;
-    color: var(--text-color-primary);
+    color: var(--text-color-secondary);
     background-color: var(--primary-color);
     border-radius: 4px;
     padding: 1rem 2rem;
@@ -67,5 +67,11 @@
   
   .opacity {
     cursor: default;
+  }
+
+  .btn-secondary {
+    background: var(--secondary-color);
+    color: var(--text-color-primary);
+    font-weight: 700;
   }
   

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./QuizCard.css"
-import {useAuth, useQuiz} from "../../context/index"
+import { useQuiz} from "../../context/index"
 
 export const QuizCard = ({quizCategory}) => {
 
