@@ -10,7 +10,7 @@ export const Home = () =>{
     useEffect(() => {
         (async () => {
             try{
-                const data = await axios.get(`https://quiz-app-backend.cyclic.app/categories`);
+                const data = await axios.get(`https://quiz-app-backend-mu.vercel.app/categories`);
                 setCategories(data.data.users);
             }catch(error){
                 console.log(error)
