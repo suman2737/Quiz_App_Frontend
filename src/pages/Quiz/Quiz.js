@@ -11,7 +11,7 @@ export const Quiz = () =>{
     useEffect(() => {
         (async () => {
             try{
-                const data = await axios.get(`https://quiz-app-backend.cyclic.app/quiz`, {
+                const data = await axios.get(`https://quiz-app-backend-mu.vercel.app/`, {
                     headers: { authorization: localStorage.getItem("token") }
                 });
                 
